@@ -1,0 +1,34 @@
+{
+  "hotels":[
+    {
+        "hotel" : "Mövenpick Resort Aswan",
+        "hotelRate" : 4.8,
+        "hotelFare" : 2075,
+        "roomAmenities" : "WiFi in lobby,WiFi in rooms,Spa,Parking,Pool,Pets,A/C,Hotel bar,Gym"
+    },
+    {
+        "hotel" : "Hotel Albatros Palace",
+        "hotelRate" : 4.2,
+        "hotelFare" : 2462,
+        "roomAmenities" : "24-hour reception,Hairdresser,Nightclub,WiFi in lobby,Spa,Parking,Pool,Pets,A/C,Hotel bar,Gym"
+    },
+    {
+        "hotel" : "Hilton Marsa Alam Nubian Resort",
+        "hotelRate" : 4.9,
+        "hotelFare" : 1833,
+        "roomAmenities" : "Beauty salon,Body treatments,WiFi in lobby,WiFi in rooms,Spa,Parking,Pool,Pets,A/C"
+    },
+    {
+        "hotel" : "Jolie Ville Golf & Resort",
+        "hotelRate" : 5,
+        "hotelFare" : 1422,
+        "roomAmenities" : "Airport shuttle,Car park,Room safe,Pool bar"
+    },
+    {
+        "hotel":"Lahami Bay Beach Resort",
+        "hotelRate": 4.7,
+        "hotelFare" : 3309,
+        "roomAmenities":"Sauna,Turkish bath / Hammam,Whirlpool / Hot tub"
+    }
+  ]
+}
