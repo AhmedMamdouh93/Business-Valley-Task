@@ -25,3 +25,5 @@ The project is based on the version 7.x of the Laravel framework, so make sure t
 5- php artisan serve
 
 6- run url localhost:8000/api/hotel-search?date_from=2020-08-25&date_to=2020-08-31&city_code=CAI&adults_number=2
+
+7- to run unit test .\vendor\bin\phpunit
