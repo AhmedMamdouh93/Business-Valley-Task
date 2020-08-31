@@ -37,7 +37,13 @@ class HotelsService
         }
         // Order hotels by rate desc
         return $all_providers_results->sortByDesc(function ($hotel) {
-            return $hotel->rate;
+            if(isset($hotel->rate)){
+                return $hotel->rate;
+            }else{
+                if(isset($hotel['rate']))
+                    return $hotel['rate'];
+            }
+            
         })->values();
     }
 }

@@ -23,4 +23,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('insertHotel','HotelController@insertHotel');
 // http://localhost:8000/api/hotel-search?from_date=2020-8-25&to_date=2020-08-31&city=&adults_number=
-Route::get('hotel-search', 'HotelController@search');
+Route::get('hotel-search', 'HotelController@search')->name('search');

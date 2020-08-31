@@ -27,7 +27,7 @@ class SearchRequest extends FormRequest
             'date_from' => 'required|date',
             'date_to' => 'required|date|after:from_date',
             'city_code' => 'required|string',
-            'adults_number' => 'required|integer|min:1',
+            'adults_number' => 'required|integer|min:1'
         ];
     }
 }

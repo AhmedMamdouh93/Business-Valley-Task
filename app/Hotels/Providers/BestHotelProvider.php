@@ -3,7 +3,6 @@
 namespace App\Hotels\Providers;
 
 use App\Hotels\Hotel;
-use App\Hotels\Apis\BestHotelsApi;
 use App\Hotels\HotelProvidersInterface;
 
 class BestHotelProvider implements HotelProvidersInterface
